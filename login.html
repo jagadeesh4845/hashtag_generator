@@ -1,0 +1,118 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+             .nav
+            {
+                border: 10px;
+                background-color:orangered;
+                height:90px;
+            }
+
+            .nav .main
+            {
+                border:10px;
+                background-color:orangered;
+                text-indent: 35%;
+                padding:10px;
+                font-size: 25px;
+                
+            }
+            .nav .home
+            {
+                border-radius: 3px;
+                padding: 5px;
+                text-indent: 10%;
+                font-size:15px;
+            }
+            .nav .home .sub
+            {
+                float:left;
+                background-color:orangered;
+                border-radius: 3px;
+                border: 10px;
+                padding: 5px;
+                margin-left: 40px;
+                color: black;
+            }
+            .nav .home .sub:hover
+            {
+                background-color: rgb(249, 153, 69);
+            }
+            .nav .home .sub a:link
+            {
+                text-decoration: none;
+            }
+            .login
+            {
+                margin-left: 10px;
+                padding-left: 35%;
+            }
+         
+            input[type=text],input[type=password]
+            {
+                width: 30%;
+                margin: 5px 0 22px 0;
+                padding:15px;
+                display:inline-block;
+                border:none;
+                outline: none;
+                background-color: whitesmoke;
+                margin-left:25px ;
+            }
+            input[type=text]:focus,input[type=password]:focus
+            {
+                background-color: bisque;
+            }
+            .sbutton
+            {
+                padding-left: 10%;
+            }
+            .sbutton a:link
+            {
+                text-decoration: none;
+                background-color: rgb(15, 105, 208);
+                font-size: 25px;
+                border-radius:10px;
+                color:white;
+                padding: 5px;
+            }
+            .sbutton a:hover
+            {
+                background-color:rgb(36, 59, 142) ;
+                color:white ;
+            }
+            .sbutton a:visited
+            {
+                color: white;
+            }
+           
+        </style>
+
+    </head>
+    <body>
+        <div class="nav">
+            <div class="main">WELCOME TO # HASTAGS </div>
+            <div class="home">
+                <div class="sub"><a href="index.html">HOME</a></div>
+                <div class="sub"><a href="info.html">Info</a></div>
+            </div>
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <label>Username</label>
+            <br />
+            <input type="text" placeholder="username"/>
+            <br />
+            <label>password</label>
+            <br />
+            <input type="password" placeholder="password"/>
+            <br />
+            <div class="sbutton"><a href="hashtag.html">Login</a></div>
+        </div>
+
+
+    
+        
+    </body>
+</html>

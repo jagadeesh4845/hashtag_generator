@@ -1,0 +1,163 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+        *
+        {
+            box-sizing:border-box;
+        } 
+            .nav
+            {
+                border: 10px;
+                background-color:orangered;
+                height:90px;
+            }
+
+            .nav .main
+            {
+                border:10px;
+                background-color:orangered;
+                text-indent: 35%;
+                padding:10px;
+                font-size: 25px;
+                
+            }
+            .nav .home
+            {
+                border-radius: 3px;
+                padding: 5px;
+                text-indent: 10%;
+                font-size:15px;
+            }
+            .nav .home .sub
+            {
+                float:left;
+                background-color:orangered;
+                border-radius: 3px;
+                border: 10px;
+                padding: 5px;
+                margin-left: 40px;
+                color: black;
+            }
+            .nav .home .sub:hover
+            {
+                background-color: rgb(249, 153, 69);
+            }
+            .nav .home .sub a:link
+            {
+                text-decoration: none;
+            }
+            .register
+            {
+                border: 2px dashed;
+                border-color: black;
+                margin:20%;
+                margin-left: 35%;
+                margin-right: 35%;
+                height: 200px;
+            
+                
+            }
+            .register .sub1
+            {
+                margin-left: 30%;
+                margin-right: 40%;
+                background-color: rgb(77, 116, 243);
+                padding-left: 30px;
+                border-radius:10px;
+                
+            
+            }
+            .or
+            {
+                padding-left:42%;
+                padding-top: 20px;
+            }
+            .register .sub1 a:link
+            {
+                text-decoration: none;
+                color: aliceblue;
+            }
+            .register .sub1:hover
+            {
+                background-color: rgb(10, 15, 171);
+            }
+            .sign
+            {
+                margin-left: 10px;
+                padding-left: 35%;
+
+            }
+            input[type=text],input[type=email],input[type=password]
+            {
+                width: 30%;
+                margin: 5px 0 22px 0;
+                padding:15px;
+                display:inline-block;
+                border:none;
+                outline: none;
+                background-color: whitesmoke;
+            }
+            input[type=text]:focus,input[type=email]:focus,input[type=password]:focus
+            {
+                background-color: bisque;
+            }
+            .head
+            {
+                color: rgb(152, 14, 14);
+            }
+            .sbutton a:link
+            {
+                text-decoration: none;
+                background-color: rgb(77, 116, 243);
+                font-size: 25px;
+                border-radius:10px;
+                margin:15px ;
+                color:white;
+            }
+            .sbutton a:hover
+            {
+                background-color:rgb(76, 76, 223) ;
+            }
+            .sbutton a:visited
+            {
+                color:white;
+            }
+           
+        </style>
+
+    </head>
+    <body>
+        <div class="nav">
+            <div class="main">WELCOME TO # HASTAGS </div>
+            <div class="home">
+                <div class="sub"><a href="index.html">HOME</a></div>
+                <div class="sub"><a href="info.html">Info</a></div>
+            </div>
+        </div>
+        <div class="sign">
+         <h2 class="head">Sign-up</h2>
+         <h4>please the enter below details to sign up</h4>
+          <div class="details">
+         <label>User name</label>
+         <br />
+         <input type="text" placeholder="Name"/>
+         <br />
+         <label>Email</label>
+         <br />
+         <input type="email" placeholder="email"/>
+         <br />
+         <label>password</label>
+         <br />
+         <input type="password" placeholder="password"/>
+         <br />
+         <label>Re-password</label>
+         <br />
+         <input type="password" placeholder="Re-password"/>
+         <br />
+        </div>
+        <div class="sbutton"> <a href="login.html">Sign-up</a></div>
+        
+
+    </body>
+</html>

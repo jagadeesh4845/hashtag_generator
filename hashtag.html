@@ -1,0 +1,101 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+             .nav
+            {
+                border: 10px;
+                background-color:orangered;
+                height:90px;
+            }
+
+            .nav .main
+            {
+                border:10px;
+                background-color:orangered;
+                text-indent: 35%;
+                padding:10px;
+                font-size: 25px;
+                
+            }
+            .nav .home
+            {
+                border-radius: 3px;
+                padding: 5px;
+                text-indent: 10%;
+                font-size:15px;
+            }
+            .nav .home .sub
+            {
+                float:left;
+                background-color:orangered;
+                border-radius: 3px;
+                border: 10px;
+                padding: 5px;
+                margin-left: 40px;
+                color: black;
+            }
+            .nav .home .sub:hover
+            {
+                background-color: rgb(249, 153, 69);
+            }
+            .nav .home .sub a:link
+            {
+                text-decoration: none;
+            }
+            .hash
+            {
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+            input[type=text]
+            {
+                width:50%;
+                padding:;
+            }
+            .sbutton
+            {
+                margin-top: 25px;
+                margin-left:10% ;
+            }
+
+            .sbutton a:link
+            {
+                text-decoration: none;
+                background-color: rgb(77, 116, 243);
+                font-size: 25px;
+                border-radius:10px;
+                margin:15px ;
+                margin-top: 50px;
+                color:white;
+            }
+            .sbutton a:hover
+            {
+                background-color:rgb(76, 76, 223) ;
+            }
+            .sbutton a:visited
+            {
+                color:white;
+            }
+           
+        </style>
+
+    </head>
+    <body>
+        <div class="nav">
+            <div class="main">WELCOME TO # HASTAGS </div>
+            <div class="home">
+                <div class="sub"><a href="index.html">HOME</a></div>
+                <div class="sub"><a href="info.html">Info</a></div>
+            </div>
+        </div>
+        <div class="hash">
+          <h2>Welcome to Hashtag Generator</h2>
+          <label>Enter your hashtag here</label>
+          <br />
+         <input type="text" placeholder="enter your hastag without #"/>
+         <div class="sbutton"><a href="generate.html">Generate</a></div>
+        </div>
+       
+    </body>
+</html>
